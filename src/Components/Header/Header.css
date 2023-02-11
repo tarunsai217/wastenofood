@@ -1,0 +1,49 @@
+.header .upper-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 3rem;
+}
+
+.header .upper-header span {
+  margin-left: 1rem;
+}
+.header .upper-header ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+}
+
+.header .upper-header ul li {
+  padding: 0.25rem 0;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+.upper-header,
+.lower-header {
+  padding: 0 2rem;
+}
+
+.header .lower-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 40px 3rem;
+  background-color: #000d38;
+  color: white;
+}
+
+.header .lower-header ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+}
+
+.header .lower-header ul li {
+  padding: 0.25rem 0;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
